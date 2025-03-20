@@ -47,9 +47,10 @@ export default function App() {
     } else if (path.includes("caster")) {
       setPage("caster");
     } else {
-      setPage("landing");
+      setPage("landingg");
     }
   }, []);
+
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
@@ -774,7 +775,7 @@ function Player() {
       setCurrentItem(data.item);
       setIsPlaying(data.isPlaying);
     });
-    
+
     socket.on("playback_state", (data) => {
       setIsPlaying(data.isPlaying);
     });
