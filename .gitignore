@@ -26,3 +26,4 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db server/uploads/*.mp4
+server/uploads/*.mp4
