@@ -22,7 +22,8 @@ export default function PlaylistSidebar({
     <div className="w-1/3 bg-gray-900 p-4 flex flex-col">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-xl font-semibold text-white">
-          {isDatabasePlaylist ? "Database Playlist" : "Local Playlist"}
+          {/* {isDatabasePlaylist ? "Database Playlist" : "Local Playlist"} */}
+          Playlist
         </h2>
       </div>
 
